@@ -1,0 +1,22 @@
+button {
+  height: 48px;
+  width: 48px;
+
+  border: none;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator {
+  background-color: #ffffff;
+
+  border-radius: 30px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 68px);
+}
